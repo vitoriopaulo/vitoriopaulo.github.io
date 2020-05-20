@@ -48,7 +48,7 @@ body {
 
 .line2 {
   max-width: none;
-  height: 36px;
+  height: 48px;
   background: rgba(75,75,75,0.9);
   margin: 0 0 0 0;
 }
@@ -56,11 +56,11 @@ body {
 
 h2 {
   color: rgb(255,140,0);
-  line-height: 28px;
   text-align: center;
-  height: 30px;
-  margin-top: 4px;
+  font-size: 32px;
   font-family: 'Jost', cursive;
+  marging-top: 4px;
+  margin-bottom: 4px;
 }
 
 
@@ -141,7 +141,7 @@ color: #ccff33;
 .line2 {
   max-width: none;
   height: 36px;
-  background: rgba(75,75,75,0.9);
+  background: rgba(75,75,75,0.2);
   margin: 0 0 0 0;
 }
 
