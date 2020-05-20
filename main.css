@@ -40,8 +40,8 @@ body {
 }
 
 .line1 {
-  max-width: 630px;
-  height: 10px;
+  max-width: none;
+  height: 12px;
   background-color: gray;
   margin: 0 0 0 0;
 }
