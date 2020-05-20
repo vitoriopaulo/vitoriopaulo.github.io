@@ -86,7 +86,7 @@ div#slider figure {
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 30s slidy infinite;
+  animation: 40s slidy infinite;
 }
 
 
@@ -241,6 +241,12 @@ height: 300px;
         font-size: 36px;
         padding: 5px;
       }
+
+      h2 {
+        font-size: 18px;
+        padding: 5px;
+      }
+
       li {
         padding: 5px;
         display: inline;
@@ -314,6 +320,13 @@ height: 300px;
 }
 
   .line2 {
+  max-width: 600px;
+  height: 10px;
+  background-color: gray;
+  margin: 15em 0 0 0;
+  }
+
+  .line1 {
   max-width: 600px;
   height: 10px;
   background-color: gray;
