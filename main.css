@@ -47,9 +47,8 @@ body {
 }
 
 .palms-house {
-  margin: 0 0 0 0;
-  max-width: none;
-  max-height: none;
+  margin: 0 auto;
+  background-size:cover;
 }
 
 h1 {
