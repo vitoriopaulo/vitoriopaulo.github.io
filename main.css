@@ -48,7 +48,7 @@ body {
 
 .palms-house {
   margin: 0 auto;
-  background-size:cover;
+  object-fit: cover;
 }
 
 h1 {
