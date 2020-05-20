@@ -46,6 +46,24 @@ body {
   margin: 0 0 0 0;
 }
 
+.line2 {
+  max-width: none;
+  height: 36px;
+  background-color: gray;
+  opacity: 0.7;
+  margin: 0 0 0 0;
+}
+
+
+h2 {
+  color: rgb(255,140,0);
+  line-height: 28px;
+  text-align: center;
+  height: 30px;
+  margin-top: 4px;
+  font-family: 'Jost', cursive;
+}
+
 
 @keyframes slidy {
 0% { left: 0%; }
@@ -119,11 +137,13 @@ color: #ccff33;
   width: 300px;
 }
 
+## Space for Paragraph ##
+
 .line2 {
   max-width: none;
   height: 36px;
   background-color: gray;
-  opacity: 0.33;
+  opacity: 0.7;
   margin: 0 0 0 0;
 }
 
@@ -133,8 +153,11 @@ h2 {
   line-height: 28px;
   text-align: center;
   height: 30px;
+  margin-top: 4px;
   font-family: 'Jost', cursive;
 }
+
+## Space for Paragraph ##
 
 
 #portfolio {
