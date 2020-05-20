@@ -46,6 +46,12 @@ body {
   margin: 0 0 0 0;
 }
 
+.palms-house {
+  margin: 0 0 0 0;
+  max-width: none;
+  max-height: none;
+}
+
 h1 {
   text-align: left;
   color: rgb(255,140,0);
