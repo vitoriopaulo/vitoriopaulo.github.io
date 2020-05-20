@@ -248,29 +248,29 @@ height: 300px;
 
    body {
           margin: 0 auto;
-      } 
+      }
 
 
 h2 {
   color: rgb(245,245,245);
   text-align: center;
-  font-size: 3.5em;
+  font-size: 1.5em;
   font-family: 'Jost', cursive;
-  padding-top: 0.75em;
-  padding-bottom: 0.75em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
 }
 
   .line2 {
   max-width: 600px;
-  height: 5em;
+  height: 2em;
   background-color: rgba(75,75,75,0.9);
   margin: 0 0 0 0;
   }
 
   .line1 {
   max-width: 600px;
-  height: 2.5em;
-  background-color: rgba(75,75,75,0.9);
+  height: 0.5em;
+  background-color: gray;
   margin: 0 0 0 0;
   }
       }
