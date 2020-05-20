@@ -242,106 +242,35 @@ height: 300px;
         padding: 5px;
       }
 
-      li {
-        padding: 5px;
-        display: inline;
+      p {
+        padding: 10px;
       }
-
-  .nav-menu {
-  display: inline;
-  padding: 10px 0 10px 0;
-  botton: 0;
-  margin: 20px;
-  height: 30px;
-}
-
-
-  #portfolio {
-  color: #3399ff;
-  text-align: center;
-  font-family: 'Monoton', cursive;
-  margin: 0 25px 0 25px;
-}
-
-  p {
-    padding: 10px;
-  }
-
-  .paragraph-about{
-  max-width: 97.5%;
-  margin: .25em .25em .25em .25em;
-}
 
    body {
           margin: 0 auto;
-        }
-
-  .vitorio-about {
-  margin: 10px 30px 10px 30px;
-  border-color: gray;
-  border-width: 10px;
-  border-style: solid;
-  border-radius: 50%;
-  image-position: center;
-  image-size: cover;
-  width: 300px;
-}
-
-  .thumbnail-1 {
-  max-width: 95%;
-  max-height: 50%;
-  background-size: cover;
-    position: centered;
-    padding: 25px;
-}
-
-.e-mail {
-  height: 30px;
-}
-
-.name {
-  width: 400px;
-  height: 30px;
-  text-align: justify;
-  padding: 20px;
-}
-
-  .icon {
-  display: inline;
-  padding: 0px 12px 0px 12px;
-  botton: 0;
-  margin: 25px;
-  height: 0px;
-}
-
-.line2 {
-  max-width: none;
-  height: 48px;
-  background: rgba(75,75,75,0.9);
-  margin: 0 0 0 0;
-}
+      } 
 
 
 h2 {
   color: rgb(245,245,245);
   text-align: center;
-  font-size: 30em;
+  font-size: 3.5em;
   font-family: 'Jost', cursive;
-  padding-top: 7.5em;
-  padding-bottom: 7.5em;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
 }
 
   .line2 {
   max-width: 600px;
-  height: 45em;
+  height: 5em;
   background-color: rgba(75,75,75,0.9);
-  margin: 15em 0 0 0;
+  margin: 0 0 0 0;
   }
 
   .line1 {
   max-width: 600px;
-  height: 45em;
+  height: 2.5em;
   background-color: rgba(75,75,75,0.9);
-  margin: 15em 0 0 0;
+  margin: 0 0 0 0;
   }
       }
