@@ -90,11 +90,17 @@ div#slider figure {
 }
 
 
+.top {
+  margin: 0 0 0 0;
+  object-fit: contain;
+}
+
 
 .palms-house {
   margin: 0 0 0 0;
   object-fit: contain;
 }
+
 
 h1 {
   text-align: left;
