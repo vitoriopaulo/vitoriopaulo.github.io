@@ -34,7 +34,7 @@ a {
 
 body {
   margin: 0 auto;
-  max-width: 600px;
+  max-width: none;
   background: rgb(0,0,0);
   text-align: left;
 }
