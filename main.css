@@ -49,7 +49,7 @@ body {
 h1 {
   text-align: left;
   color: rgb(255,140,0);
-  margin: 0px;
+  margin: 12px;
   background: rgba(0,0,0,1);
   font-family: 'Jost', cursive;
   font-size: 48px;
