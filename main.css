@@ -7,12 +7,25 @@ h1 {
 }*/
 
 header {
-  text-align: none;
-  height: 350px;
-  color: #ccff33;
+  margin: 0 0 0 0;
+  height: 250px;
+  background: rgb(0,0,0);
 }
 
+h1 {
+  text-align: left;
+  color: rgb(245,245,245);
+  margin-left: 12px;
+  margin-top: 24px;
+  font-family: 'Jost', cursive;
+  font-size: 48px;
+}
 
+.top {
+  margin: 0 0 0 0;
+  object-fit: contain;
+  padding-top: 0;
+}
 
 body {
   margin: none;
@@ -27,6 +40,7 @@ body {
   height: 12px;
   background-color: gray;
   margin: 0 0 0 0;
+  padding-bottom: 0;
 }
 
 .line2 {
@@ -88,11 +102,6 @@ figure.slider figure figcaption {
 }
 
 
-.top {
-  margin: 0 0 0 0;
-  object-fit: contain;
-}
-
 
 .palms-house {
   margin: 0 0 0 0;
@@ -102,16 +111,6 @@ figure.slider figure figcaption {
 .design {
   margin: 0 0 0 0;
   object-fit: contain;
-}
-
-h1 {
-  text-align: left;
-  color: rgb(245,245,245);
-  margin-left: 12px;
-  margin-top: 12px;
-  background: rgba(0,0,0,1);
-  font-family: 'Jost', cursive;
-  font-size: 48px;
 }
 
 
