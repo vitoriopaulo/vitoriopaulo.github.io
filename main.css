@@ -7,30 +7,12 @@ h1 {
 }*/
 
 header {
-  text-align: center;
-  background: url('http://www.vitoriopaulo.com/uploads/2/3/3/1/23317088/2315732_orig.jpeg');
-  background-size: cover;
+  text-align: none;
   height: 350px;
   color: #ccff33;
 }
 
-ul {
-  pading: 10px;
-  background: rgba(0,0,0,0.5);
-  margin: 140px 0 0 0;
-}
 
-.nav-menu {
-  display: inline;
-  padding: 20px 0 20px 0;
-  botton: 0;
-  margin: 30px;
-  height: 100px;
-}
-
-a {
-  color: #ccff33;
-}
 
 body {
   margin: none;
@@ -38,6 +20,7 @@ body {
   background: rgb(0,0,0);
   text-align: left;
 }
+
 
 .line1 {
   max-width: none;
@@ -101,46 +84,22 @@ div#slider figure {
   object-fit: contain;
 }
 
+.design {
+  margin: 0 0 0 0;
+  object-fit: contain;
+}
 
 h1 {
   text-align: left;
   color: rgb(245,245,245);
-  margin: 12px;
+  margin-left: 12px;
+  margin-top: 12px;
   background: rgba(0,0,0,1);
   font-family: 'Jost', cursive;
   font-size: 48px;
 }
 
-p {
-color: #ccff33;
-  padding: 20px;
-  line-height: 28px;
-  text-align: justify;
-  height: 30px;
-  font-family: Montserrat, Avenir, Verdana, Arial;
-}
 
-.paragraph-about{
-  max-width: 600px;
-  margin: 10px 0 0 0;
-}
-
-#about {
-  color: #3399ff;
-  text-align: center;
-  font-family: 'Monoton', cursive;
-}
-
-.vitorio-about {
-  margin: 10px 150px 10px 150px;
-  border-color: gray;
-  border-width: 10px;
-  border-style: solid;
-  border-radius: 50%;
-  image-position: center;
-  image-size: cover;
-  width: 300px;
-}
 
 ## Space for Paragraph ##
 
@@ -149,98 +108,7 @@ color: #ccff33;
 ## Space for Paragraph ##
 
 
-#portfolio {
-  color: #3399ff;
-  text-align: center;
-  font-family: 'Monoton', cursive;
-  margin: 0 0 25px 0;
-}
-
-#skills {
-  color: #3399ff;
-  text-align: center;
-  font-family: 'Monoton', cursive;
-  margin: 0 0 25px 0;
-}
-
-.thumbnail-1 {
-  width: 95%;
-  height: 50%;
-  background-size: cover;
-  text-align: center;
-  margin: 0em 1em 0em 1em;
-}
-
-#line3 {
-  max-width: 600px;
-  height: 10px;
-  background-color: gray;
-  margin: 0 0 0 0;
-}
-
-#contact {
-  color: #3399ff;
-  text-align: center;
-  font-family: 'Monoton', cursive;
-  margin: 0 0 25px 0;
-}
-
-.about-scroll {
-overflow-y: scroll;
-height: 300px;
-}
-
-.paragraph-contact {
-  max-width: 600px;
-  margin: 10px 0 0 0;
-}
-
-.portfolio-scroll {
-  overflow-y: scroll;
-  height: 600px;
-}
-
-.e-mail {
-  color: #3399ff;
-  font-size: 24px;
-}
-
-.line4 {
-  max-width: 600px;
-  height: 10px;
-  background-color: gray;
-  margin: -20px 0 0 0;
-}
-
-.line5 {
-  max-width: 600px;
-  height: 10px;
-  background-color: gray;
-  margin: 0 0 0 0;
-}
-
-.line6 {
-  max-width: 600px;
-  height: 10px;
-  background-color: gray;
-  margin: 0 0 0 0;
-}
-
-.icon {
-  display: inline;
-  padding: 0px 30px 0px 30px;
-  botton: 0;
-  margin: 17px;
-  height: 0px;
-}
-
-.icon2 {
-  display: inline;
-  padding: 0px 25px 0px 25px;
-  botton: 0;
-  margin: 30px;
-  height: 0px;
-}
+--- DESIGNING FOR MOBILE ---
 
 @media (max-width: 600px) {
       h1 {
