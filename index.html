@@ -23,21 +23,78 @@
       <script src="index.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
 
-<body>
+<body class="container-fluid">
 
 <div class="container-fluid">
 
 <header>
+
+<div class="header-wrapper">
+
   <div>
-    <div class= "line1">
-    </div>
-    <div class="top">
-      <img src="./images/Design/top.jpg" class="top img-fluid img-responsive">
-    </div>
-    <div>
-      <h1> VITÓRIO PAULO :: ARQUITETO </h1>
-    </div>
+      <div class= "line1">
+      </div>
+
+      <div class="top">
+        <img src="./images/Design/top.jpg" class="top img-fluid img-responsive">
+      </div>
   </div>
+
+
+<!--    <div class="header-wrapper header-menu container-fluid">  -->
+<div class="header-wrapper">
+
+  <div class="col-xs-2 left">
+    <!--    Made by Erik Terwan    -->
+    <!--   24th of November 2015   -->
+    <!--        MIT License        -->
+    <nav role="navigation">
+
+      <div id="menuToggle">
+        <!--
+        A fake / hidden checkbox is used as click reciever,
+        so you can use the :checked selector on it.
+        -->
+        <input type="checkbox" />
+
+        <!--
+        Some spans to act as a hamburger.
+
+        They are acting like a real hamburger,
+        not that McDonalds stuff.
+        -->
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <!--
+        Too bad the menu has to be inside of the button
+        but hey, it's pure CSS magic.
+        -->
+        <ul id="menu">
+          <a href="#"><li>Home</li></a>
+          <a href="#"><li>About</li></a>
+          <a href="#"><li>Info</li></a>
+          <a href="#"><li>Contact</li></a>
+          <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+        </ul>
+
+      </div>
+
+    </nav>
+
+  </div>
+
+
+  <div class="col-xs-10 right">
+      <h1> VITÓRIO PAULO :: ARQUITETO </h1>
+  </div>
+
+  <br style="clear:both;/">
+
+</div>
+
+
 <header>
 
 <!-- <body> -->
@@ -57,6 +114,7 @@
 
 
 <div id="captioned-gallery">
+
 	<figure class="slider">
     <figure>
 			<img src="./images/Architecture/palms-house03.jpg" class="palms-house img-fluid img-responsive">
@@ -80,6 +138,7 @@
 			<figcaption> Casa das Palmeiras </figcaption>
 		</figure>
 	</figure>
+
 </div>
 
 <!-- SEÇÃO DESIGN -->
@@ -93,7 +152,9 @@
     <h2> Design </h2>
   </div>
 
+
   <div id=captioned-gallery>
+
     <figure class="slider">
       <figure>
         <img src="./images/Design/chaise-berimbau-dupla.jpg" class="design img-fluid omg-responsive">
@@ -116,6 +177,7 @@
         <figcaption> Chaise-Guanabara </figcaption>
       </figure>
     </figure>
+
   </div>
 
 </div>
@@ -218,7 +280,7 @@
 <div>
   <br>
     <h4> Consultor e Instrutor Pleno em Design | SEBRAE </h4>
-    <h5> SEBRAE - Serviço Brasileiro de Apoio às Pequenas e Micro Empresas. Goiânia-Goiás|Brasil. 2005. </h5>
+    <h5> SEBRAE - Serviço Brasileiro de Apoio às Pequenas e Micro Empresas. Goiânia-Goiás | Brasil. 2005. </h5>
     <br>
     <h4> Membro Honoris Causa | Clube do Designer </h4>
     <h5> CEM - Central da Excelência Moveleira | Grupo Móveis de Valor. Arapongas-Paraná | Brasil. 2004. </h5>
@@ -229,7 +291,7 @@
     <h4> Professor Convidado - Bacharelado em Design | UCG </h4>
     <h5> Universidade Católica de Goiás. Goiânia-Goiás | Brasil. 2004. </h5>
   <br>
-<div>
+</div>
 
 <!-- SEÇÃO EXIBIÇÕES -->
 
