@@ -10,7 +10,7 @@ header {
   margin: 0 0 0 0;
   height: 250px;
   background: rgb(0,0,0);
-  border: 1px;
+  border: 0px; /* 1px */
 }
 
 h1 {
@@ -19,7 +19,7 @@ h1 {
   padding-left: 72px;
   padding-top: 24px;
   font-family: 'Jost', cursive;
-  font-size:48px;
+  font-size: 36px;
   margin: 0 0 0 0;
 }
 
@@ -81,7 +81,7 @@ body
   /* make it look decent enough */
   background: #232323;
   color: #cdcdcd;
-  font-family: "Avenir Next", "Avenir", sans-serif;
+  font-family: "Jost", cursive;
 }
 
 #menuToggle
@@ -404,7 +404,7 @@ p {
 @media (max-width: 600px) {
       h1 {
         font-size: 2em;
-        padding: 0.5em;
+        padding: 0.05em;
         margin: 0 auto;
       }
 
@@ -418,23 +418,23 @@ p {
           padding: 0 auto;
       }
 
-    header {
+    /* header {
       margin: 0 auto;
       padding: 0 auto;
-    }
+    } */
 
 
-    #menuToggle
+  /*  #menuToggle
     {
       display: block;
       position: relative;
       top: -0.5em; /* top: 50px*/
-      left: 2em; /* left: 50px*/
+    /*  left: 2em;  left: 50px
       z-index: 1;
 
       -webkit-user-select: none;
       user-select: none;
-    }
+    } */
 
 
 
@@ -454,6 +454,7 @@ h2 {
   max-height: 600px;
   background-color: rgba(75,75,75,0.9);
   margin: 0 0 0 0;
+  overflow:hidden;
 }
 
   .line2 {
@@ -472,9 +473,9 @@ h2 {
 
   .icon {
   display: inline;
-  padding: 0px 0.01em 0px 0.01em;
+  padding: 0px 0.005em 0px 0.005em;
   botton: 0;
-  margin: 0;
+  margin: 0.0em;
   height: 0px;
   transform:scale(0.5);
 }
