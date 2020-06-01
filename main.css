@@ -23,7 +23,7 @@ h1 {
   margin: 0 0 0 0;
 }
 
-.top {
+.scale {
   margin: 0 0 0 0;
   object-fit: contain;
   padding-top: 0;
@@ -35,25 +35,6 @@ body {
   background: rgb(0,0,0);
   text-align: center;
 }
-
-/* Dividindo Header :: Logo & Menu */
-
-
-
-/* -- Putting in stand by --
-.logo {
-  grid-column: 3;
-  grid-row: 1;
-  text-align: left;
-  color: rgb(245,245,245);
-  margin-left: 12px;
-  margin-top: 24px;
-  font-family: 'Jost', cursive;
-  font-size: 48px;
-}
-
--- Putting in stand by -- */
-
 
 
 
@@ -223,6 +204,7 @@ body
 {
   padding: 10px 0;
   font-size: 22px;
+  text-align: left;
 }
 
 /*
@@ -237,6 +219,44 @@ body
 /* Burger Navivigation Menu END*/
 
 
+
+/* Styling the Back to Top button START */
+
+#scroll {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:#b843ef;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px
+}
+
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff;
+}
+
+#scroll:hover {
+    background-color:#3498db;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}
+
+
+/* Styling the Back to Top button END*/
 
 
 .line1 {
@@ -274,7 +294,7 @@ h2 {
 
 
 
-/* Slider Animation BEGINNINING*/
+/* Slider Animation START*/
 
 
 @keyframes slidy {
@@ -318,8 +338,7 @@ figure.slider figure figcaption {
 }
 
 
-/* Slider Animation END*/
-
+/* Slider Animation END */
 
 
 .palms-house {

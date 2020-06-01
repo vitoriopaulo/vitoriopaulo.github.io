@@ -1,4 +1,4 @@
-$(() => {
+ $(() => {
   	$('a[href^="#"]').on('click',function (e) {
   	    e.preventDefault();
 
@@ -9,9 +9,9 @@ $(() => {
   	        'scrollTop': $target.offset().top
   	    }, 900, 'swing', function () {
   	        window.location.hash = target
-  	    })
+	    })
   	})
-})
+ })
 
 // Imported from my codepen.io Account //
 

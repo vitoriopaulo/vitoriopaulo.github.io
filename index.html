@@ -35,8 +35,8 @@
       <div class= "line1">
       </div>
 
-      <div class="top">
-        <img src="./images/Design/top.jpg" class="top img-fluid img-responsive">
+      <div class="scale">
+        <img src="./images/Design/top.jpg" class="scale img-fluid img-responsive">
       </div>
   </div>
 
@@ -72,18 +72,18 @@
         but hey, it's pure CSS magic.
         -->
         <ul id="menu">
-          <a href="#"><li>Home</li></a>
-          <a href="#"><li>Arquitetura</li></a>
-          <a href="#"><li>Design</li></a>
-          <a href="#"><li>Prática</li></a>
-          <a href="#"><li>About</li></a>
-          <a href="#"><li>Prêmios</li></a>
-          <a href="#"><li>Títulos</li></a>
-          <a href="#"><li>Exibições</li></a>
-          <a href="#"><li>Testimonials</li></a>
-          <a href="#"><li>Publicações</li></a>
-          <a href="#"><li>News</li></a>
-          <a href="#"><li>Contato</li></a>
+          <a class="nav-link" href="#home"><li>Home</li></a>
+          <a class="nav-link" href="#arquitetura"><li>Arquitetura</li></a>
+          <a class="nav-link" href="#design"><li>Design</li></a>
+          <a class="nav-link" href="#pratica"><li>Prática</li></a>
+          <a class="nav-link" href="#about"><li>About</li></a>
+          <a class="nav-link" href="#premios"><li>Prêmios</li></a>
+          <a class="nav-link" href="#titulos"><li>Títulos</li></a>
+          <a class="nav-link" href="#exibicoes"><li>Exibições</li></a>
+          <a class="nav-link" href="#testimonials"><li>Testimonials</li></a>
+          <a class="nav-link" href="#publicacoes"><li>Publicações</li></a>
+          <a class="nav-link" href="#news"><li>News</li></a>
+          <a class="nav-link" href="#contato"><li>Contato</li></a>
         </ul>
 
       </div>
@@ -93,7 +93,7 @@
   </div>
 
 
-  <div class="col-xs-10">
+  <div id="top" class="col-xs-10">
       <h1> VITÓRIO PAULO :: ARQUITETO </h1>
   </div>
 
@@ -110,7 +110,7 @@
 
     <div class= "line1">
     </div>
-    <div class= "line2">
+    <div id="arquitetura" class= "line2">
       <h2> Arquitetura </h2>
     </div>
 
@@ -153,7 +153,7 @@
   <div class= "line1">
   </div>
 
-  <div class= "line2">
+  <div id="design" class= "line2">
     <h2> Design </h2>
   </div>
 
@@ -192,7 +192,7 @@
 <div class= "line1">
 </div>
 
-<div class= "line2">
+<div id="pratica" class= "line2">
   <h2> Prática </h2>
 </div>
 <br>
@@ -224,7 +224,7 @@
 <div class= "line1">
 </div>
 
-<div class= "line2">
+<div id="about" class= "line2">
   <h2> About </h2>
 </div>
 
@@ -252,7 +252,7 @@
   <div class= "line1">
   </div>
 
-  <div class= "line2">
+  <div id="premios" class= "line2">
     <h2> Prêmios </h2>
   </div>
 
@@ -278,7 +278,7 @@
   <div class= "line1">
   </div>
 
-  <div class= "line2">
+  <div id="titulos" class= "line2">
     <h2> Títulos </h2>
   </div>
 
@@ -303,7 +303,7 @@
 <div class= "line1">
 </div>
 
-<div class= "line2">
+<div id="exibicoes" class= "line2">
   <h2> Exibições </h2>
 </div>
 
@@ -357,7 +357,7 @@
 <div class= "line1">
 </div>
 
-<div class= "line2">
+<div id="testimonials" class= "line2">
   <h2> Testimonials </h2>
 </div>
 
@@ -395,13 +395,15 @@
       <div class="col-xs-2 icon img-fluid"><a  href="https://twitter.com/vitoriopaulo" target=" .blank"><img src="./images/Icons/twitter-35.png"></a></div>
       <div class="col-xs-2 icon img-fluid"><a  href="https://github.com/vitoriopaulo" target=" .blank"><img src="./images/Icons/github-35.png"></a></div>
       <div class="col-xs-2 icon img-fluid"><a  href="https://youtube.com/user/vitoriopaulo" target=" .blank"><img src="./images/Icons/youtube-35.png"></a></div>
-      <div class="col-xs-2 icon img-fluid"><a href="mailto:vitoriopaulo@yahoo.com" target=" .blank"><img src="./images/Icons/mail-35.png"></a></div>
+      <div id="contact" class="col-xs-2 icon img-fluid"><a href="mailto:vitoriopaulo@yahoo.com" target=" .blank"><img src="./images/Icons/mail-35.png"></a></div>
 
   </div>
 
 </footer>
 
 </div>
+
+<a href="#top" id="scroll" style="display: none;"><span></span></a>
 
 </body>
 
