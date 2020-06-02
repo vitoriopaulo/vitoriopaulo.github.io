@@ -350,6 +350,11 @@ figure.slider figure figcaption {
   object-fit: contain;
 }
 
+.tongs {
+  margin: 0 0 0 0;
+  object-fit: contain;
+}
+
 .vitorio-photo {
   margin-top: 50px;
   margin-bottom: 50px;
