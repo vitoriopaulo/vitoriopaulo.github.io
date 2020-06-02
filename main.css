@@ -397,7 +397,7 @@ p {
   font-size: 14px;
   font-family: 'Jost', cursive;
   padding-top: 2px;
-  margin: 0 0 0 0;
+  margin: 0 5px 0 5px;
 }
 
 .testimonials {
@@ -417,6 +417,11 @@ p {
   max-width: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.e-mail {
+  color: red;
+  font-size: 24px;
 }
 
 --- DESIGNING FOR MOBILE ---
