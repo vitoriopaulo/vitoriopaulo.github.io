@@ -429,6 +429,52 @@ p {
   font-size: 24px;
 }
 
+/* Toogle Div for PUBLICACOES */
+
+label {
+  display: block;
+  margin: 10px 0 10px;
+  /* border-bottom: 1px solid green; */
+}
+
+label:hover {
+  text-decoration: none;
+}
+
+input {
+  position: absolute;
+  left: -999em;
+}
+
+.hide {
+  width: 100%;
+  border: none;
+  background: black;
+  max-height: 99em;
+  opacity: 1;
+  height: auto;
+  overflow: hidden;
+  transition: opacity 1.5s linear, max-height 1.5s linear;
+  display: inline-flex;
+  grid-auto-flow: column:
+}
+
+.hide p {
+  padding: 2.5px;
+  margin: 0 20px 0 20px;
+  max-width: 600px;
+  max-height: auto;
+}
+
+.ex1 input[type="checkbox"]:checked + div {
+  opacity: 0;
+  max-height: 0;
+  border: none;
+}
+
+/* Toogle Div for PUBLICACOES */
+
+
 --- DESIGNING FOR MOBILE ---
 
 @media (max-width: 600px) {
