@@ -455,8 +455,10 @@ input {
   height: auto;
   overflow: hidden;
   transition: opacity 1.5s linear, max-height 1.5s linear;
-  display: inline-flex;
-  grid-auto-flow: column:
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 .hide p {
