@@ -456,16 +456,23 @@ input {
   overflow: hidden;
   transition: opacity 1.5s linear, max-height 1.5s linear;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin: auto;
 }
 
+
 .hide p {
-  padding: 2.5px;
-  margin: 0 20px 0 20px;
+  padding: 5px 0 20px 0;
+  margin: 0 25% 0 25%;
   max-width: 600px;
   max-height: auto;
+  text-align: justify;
+}
+
+.hide h4 {
+  padding: 20px;
 }
 
 .ex1 input[type="checkbox"]:checked + div {
@@ -494,6 +501,30 @@ input {
    body {
           margin: 0 auto;
           padding: 0 auto;
+      }
+
+      .hide {
+        width: 100%;
+        border: none;
+        background: black;
+        max-height: 99em;
+        opacity: 1;
+        height: auto;
+        overflow: hidden;
+        transition: opacity 1.5s linear, max-height 1.5s linear;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin: auto;
+      }
+
+      .hide > div {
+        flex: 1;
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
       }
 
     /* header {
