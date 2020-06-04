@@ -469,10 +469,13 @@ input {
   max-width: 600px;
   max-height: auto;
   text-align: justify;
+  color: gray;
 }
 
 .hide h4 {
   padding: 20px;
+  font-size: 16px;
+  color: white;
 }
 
 .ex1 input[type="checkbox"]:checked + div {
@@ -505,10 +508,13 @@ input {
   max-width: 600px;
   max-height: auto;
   text-align: justify;
+  color: gray;
 }
 
 .hide2 h4 {
   padding: 20px;
+  font-size: 16px;
+  color: white;
 }
 
 .ex2 input[type="checkbox"]:checked + div {
@@ -541,10 +547,13 @@ input {
   max-width: 600px;
   max-height: auto;
   text-align: justify;
+  color: gray;
 }
 
 .hide3 h4 {
   padding: 20px;
+  font-size: 16px;
+  color: white;
 }
 
 .ex3 input[type="checkbox"]:checked + div {
@@ -577,10 +586,13 @@ input {
   max-width: 600px;
   max-height: auto;
   text-align: justify;
+  color: gray;
 }
 
 .hide4 h4 {
   padding: 20px;
+  font-size: 16px;
+  color: white;
 }
 
 .ex4 input[type="checkbox"]:checked + div {
@@ -613,10 +625,13 @@ input {
   max-width: 600px;
   max-height: auto;
   text-align: justify;
+  color: gray;
 }
 
 .hide5 h4 {
   padding: 20px;
+  font-size: 16px;
+  color: white;
 }
 
 .ex5 input[type="checkbox"]:checked + div {
@@ -649,10 +664,13 @@ input {
   max-width: 600px;
   max-height: auto;
   text-align: justify;
+  color: gray;
 }
 
 .hide6 h4 {
   padding: 20px;
+  font-size: 16px;
+  color: white;
 }
 
 .ex6 input[type="checkbox"]:checked + div {
@@ -660,6 +678,85 @@ input {
   max-height: 0;
   border: none;
 }
+
+
+.hide7 {
+  width: 100%;
+  border: none;
+  background: black;
+  max-height: 99em;
+  opacity: 1;
+  height: auto;
+  overflow: hidden;
+  transition: opacity 1.5s linear, max-height 1.5s linear;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+
+.hide7 p {
+  padding: 5px 0 20px 0;
+  margin: 0 25% 0 25%;
+  max-width: 600px;
+  max-height: auto;
+  text-align: justify;
+  color: gray;
+}
+
+.hide7 h4 {
+  padding: 20px;
+  font-size: 16px;
+  color: white;
+}
+
+.ex7 input[type="checkbox"]:checked + div {
+  opacity: 0;
+  max-height: 0;
+  border: none;
+}
+
+
+.hide8 {
+  width: 100%;
+  border: none;
+  background: black;
+  max-height: 99em;
+  opacity: 1;
+  height: auto;
+  overflow: hidden;
+  transition: opacity 1.5s linear, max-height 1.5s linear;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.hide8 p {
+  padding: 5px 0 20px 0;
+  margin: 0 25% 0 25%;
+  max-width: 600px;
+  max-height: auto;
+  text-align: justify;
+  color: gray;
+}
+
+.hide8 h4 {
+  padding: 20px;
+  font-size: 16px;
+  color: white;
+}
+
+.ex8 input[type="checkbox"]:checked + div {
+  opacity: 0;
+  max-height: 0;
+  border: none;
+}
+
+
 
 /* Toogle Div for PUBLICACOES */
 
