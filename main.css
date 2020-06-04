@@ -481,6 +481,114 @@ input {
   border: none;
 }
 
+
+.hide2 {
+  width: 100%;
+  border: none;
+  background: black;
+  max-height: 99em;
+  opacity: 1;
+  height: auto;
+  overflow: hidden;
+  transition: opacity 1.5s linear, max-height 1.5s linear;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+
+.hide2 p {
+  padding: 5px 0 20px 0;
+  margin: 0 25% 0 25%;
+  max-width: 600px;
+  max-height: auto;
+  text-align: justify;
+}
+
+.hide2 h4 {
+  padding: 20px;
+}
+
+.ex2 input[type="checkbox"]:checked + div {
+  opacity: 0;
+  max-height: 0;
+  border: none;
+}
+
+
+.hide3 {
+  width: 100%;
+  border: none;
+  background: black;
+  max-height: 99em;
+  opacity: 1;
+  height: auto;
+  overflow: hidden;
+  transition: opacity 1.5s linear, max-height 1.5s linear;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+
+.hide3 p {
+  padding: 5px 0 20px 0;
+  margin: 0 25% 0 25%;
+  max-width: 600px;
+  max-height: auto;
+  text-align: justify;
+}
+
+.hide3 h4 {
+  padding: 20px;
+}
+
+.ex3 input[type="checkbox"]:checked + div {
+  opacity: 0;
+  max-height: 0;
+  border: none;
+}
+
+
+.hide4 {
+  width: 100%;
+  border: none;
+  background: black;
+  max-height: 99em;
+  opacity: 1;
+  height: auto;
+  overflow: hidden;
+  transition: opacity 1.5s linear, max-height 1.5s linear;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+
+.hide4 p {
+  padding: 5px 0 20px 0;
+  margin: 0 25% 0 25%;
+  max-width: 600px;
+  max-height: auto;
+  text-align: justify;
+}
+
+.hide4 h4 {
+  padding: 20px;
+}
+
+.ex4 input[type="checkbox"]:checked + div {
+  opacity: 0;
+  max-height: 0;
+  border: none;
+}
+
 /* Toogle Div for PUBLICACOES */
 
 
