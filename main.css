@@ -757,6 +757,155 @@ input {
 }
 
 
+.hide9 {
+  width: 100%;
+  border: none;
+  background: black;
+  max-height: 99em;
+  opacity: 1;
+  height: auto;
+  overflow: hidden;
+  transition: opacity 1.5s linear, max-height 1.5s linear;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.hide9 p {
+  padding: 5px 0 20px 0;
+  margin: 0 25% 0 25%;
+  max-width: 600px;
+  max-height: auto;
+  text-align: justify;
+  color: gray;
+}
+
+.hide9 h4 {
+  padding: 20px;
+  font-size: 16px;
+  color: white;
+}
+
+.ex9 input[type="checkbox"]:checked + div {
+  opacity: 0;
+  max-height: 0;
+  border: none;
+}
+
+
+.hide10 {
+  width: 100%;
+  border: none;
+  background: black;
+  max-height: 99em;
+  opacity: 1;
+  height: auto;
+  overflow: hidden;
+  transition: opacity 1.5s linear, max-height 1.5s linear;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.hide10 p {
+  padding: 5px 0 20px 0;
+  margin: 0 25% 0 25%;
+  max-width: 600px;
+  max-height: auto;
+  text-align: justify;
+  color: gray;
+}
+
+.hide10 h4 {
+  padding: 20px;
+  font-size: 16px;
+  color: white;
+}
+
+.ex10 input[type="checkbox"]:checked + div {
+  opacity: 0;
+  max-height: 0;
+  border: none;
+}
+
+
+.hide11 {
+  width: 100%;
+  border: none;
+  background: black;
+  max-height: 99em;
+  opacity: 1;
+  height: auto;
+  overflow: hidden;
+  transition: opacity 1.5s linear, max-height 1.5s linear;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.hide11 p {
+  padding: 5px 0 20px 0;
+  margin: 0 25% 0 25%;
+  max-width: 600px;
+  max-height: auto;
+  text-align: justify;
+  color: gray;
+}
+
+.hide11 h4 {
+  padding: 20px;
+  font-size: 16px;
+  color: white;
+}
+
+.ex11 input[type="checkbox"]:checked + div {
+  opacity: 0;
+  max-height: 0;
+  border: none;
+}
+
+.hide12 {
+  width: 100%;
+  border: none;
+  background: black;
+  max-height: 99em;
+  opacity: 1;
+  height: auto;
+  overflow: hidden;
+  transition: opacity 1.5s linear, max-height 1.5s linear;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.hide12 p {
+  padding: 5px 0 20px 0;
+  margin: 0 25% 0 25%;
+  max-width: 600px;
+  max-height: auto;
+  text-align: justify;
+  color: gray;
+}
+
+.hide12 h4 {
+  padding: 20px;
+  font-size: 16px;
+  color: white;
+}
+
+.ex12 input[type="checkbox"]:checked + div {
+  opacity: 0;
+  max-height: 0;
+  border: none;
+}
 
 /* Toogle Div for PUBLICACOES */
 
