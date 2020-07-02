@@ -35,6 +35,7 @@ body {
   max-width: none;
   background: rgb(0,0,0);
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -63,7 +64,7 @@ body
   /* make it look decent enough */
   background: #232323;
   color: #cdcdcd;
-  font-family: "Jost", cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #menuToggle
@@ -301,7 +302,7 @@ h2 {
   color: rgb(245,245,245);
   text-align: center;
   font-size: 32px;
-  font-family: 'Jost', cursive;
+  font-family: 'Montserrat', sans-serif;
   padding-top: 4px;
   padding-bottom: 4px;
   margin: 0 0 0 0;
@@ -312,12 +313,14 @@ h2 {
   padding-left: 15%;
   padding-right: 15%;
   color: gray;
-  text-align: center;
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .pratica h4 {
   color: white;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -341,7 +344,7 @@ h2 {
 }
 body, figure {
   margin: 0; background: #101010;
-  font-family: "jost", cursive;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   text-align: center;
 }
@@ -362,7 +365,7 @@ figure.slider figure figcaption {
   background: rgba(0,0,0,0.4);
   color: #fff; width: 100%;
   font-size:1rem; padding: .6rem;
-  font-family: "Jost", cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -400,7 +403,7 @@ h3 {
   color: rgb(245,245,245);
   text-align: center;
   font-size: 24px;
-  font-family: 'Jost', cursive;
+  font-family: 'Montserrat', sans-serif;
   padding-top: 4px;
   padding-bottom: 4px;
   margin: 0 0 0 0;
@@ -410,7 +413,7 @@ h4 {
   color: rgb(125,125,125);
   text-align: center;
   font-size: 18px;
-  font-family: 'Jost', cursive;
+  font-family: 'Montserrat', sans-serif;
   padding-top: 1px;
   padding-bottom: 1px;
   margin: 0 0 0 0;
@@ -420,7 +423,7 @@ h5 {
   color: rgb(200,200,200);
   text-align: center;
   font-size: 12px;
-  font-family: 'Jost', cursive;
+  font-family: 'Montserrat', sans-serif;
   padding-top: 1px;
   padding-bottom: 1px;
 }
@@ -429,7 +432,7 @@ p {
   color: rgb(200,200,200);
   text-align: justify;
   font-size: 14px;
-  font-family: 'Jost', cursive;
+  font-family: 'Montserrat', sans-serif;
   padding-top: 2px;
   margin: 0 5px 0 5px;
 }
@@ -438,7 +441,7 @@ p {
   color: rgb(125,125,125);
   text-align: center;
   font-size: 18px;
-  font-family: 'Jost', cursive;
+  font-family: 'Montserrat', sans-serif;
   padding-top:2px;
   margin: 0 0 0 0;
 }
@@ -456,6 +459,7 @@ p {
 .e-mail {
   color: red;
   font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Toogle Div for PUBLICACOES */
@@ -943,6 +947,7 @@ input {
   color: gray;
   padding-left: 10%;
   padding-right: 10%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 --- DESIGNING FOR MOBILE ---
