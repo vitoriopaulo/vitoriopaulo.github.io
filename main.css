@@ -950,7 +950,19 @@ input {
   font-family: 'Montserrat', sans-serif;
 }
 
---- DESIGNING FOR MOBILE ---
+.updown {
+  max-width: 100%;
+  height: auto;
+  transition: 0.75s;
+}
+
+.updown:hover {
+  max-width: 100%;
+  height: auto;
+  transform: scale(1.5);
+}
+
+/* --- DESIGNING FOR MOBILE --- */
 
 @media (max-width: 600px) {
       h1 {
