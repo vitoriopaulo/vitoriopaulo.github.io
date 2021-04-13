@@ -121,7 +121,7 @@ body
   margin-bottom: 5px;
   position: relative;
 
-  background: #cdcdcd;
+  background: yellow; #cdcdcd
   border-radius: 3px;
 
   z-index: 1;
@@ -169,7 +169,7 @@ body
  */
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
-  transform: rotate(-1125deg) translate(0, -1px);
+  transform: rotate(-1110deg) translate(0, 1px);
 
 }
 
@@ -210,18 +210,19 @@ body
   font-size: 18px;
   text-align: left;
   font-weight: bold;
-  color: black;
-  transition: 1s;
+  color: yellow;
+  transition: 0.5s;
 
 }
 
 #menu li:hover
 {
-  padding: 2px 0;
-  font-size: 22px;
+  padding: 1px 0;
+  font-size: 24px;
   text-align: left;
   font-weight: bold;
   color: red;
+  text-decoration: underline;
 
 }
 
