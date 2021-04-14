@@ -324,6 +324,15 @@ h2 {
   font-family: 'Montserrat', sans-serif;
 }
 
+/* CLASS Quotation
+.quotation p {
+  color: yellow;
+  text-align: center;
+  padding-left: 35%;
+  padding-right: 35%;
+  font-family: 'Montserrat', sans-serif;
+}
+    */
 
 
 /* Slider Animation START*/
@@ -941,7 +950,7 @@ input {
   border: none;
 }
 
-/* Toogle Div for PUBLICACOES */
+/* Toogle Div for PUBLICACOES finished*/
 
 .contato p {
   text-align: justify;
@@ -961,6 +970,68 @@ input {
   max-width: 100%;
   height: auto;
   transform: scale(1.5);
+}
+
+/* Secao BLOG */
+
+.blog p {
+  text-align: justify;
+  color: gray;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.updown {
+  max-width: 100%;
+  height: auto;
+  transition: 0.75s;
+}
+
+.updown:hover {
+  max-width: 100%;
+  height: auto;
+  transform: scale(1.5);
+}
+
+
+
+
+.hide13 {
+  width: 100%;
+  border: none;
+  background: black;
+  max-height: 99em;
+  opacity: 1;
+  height: auto;
+  overflow: hidden;
+  transition: opacity 1.5s linear, max-height 1.5s linear;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.hide13 p {
+  padding: 5px 0 5px 0;
+  margin: 0 25% 0 25%;
+  max-width: auto;
+  max-height: auto;
+  text-align: justify;
+  color: gray;
+}
+
+.hide13 h4 {
+  padding: 20px;
+  font-size: 16px;
+  color: white;
+}
+
+.ex13 input[type="checkbox"]:checked + div {
+  opacity: 0;
+  max-height: 0;
+  border: none;
 }
 
 <<<<<<< HEAD
