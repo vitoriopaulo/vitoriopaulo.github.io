@@ -456,6 +456,15 @@ p {
   margin: 0 0 0 0;
 }
 
+.services {
+  color: rgb(125,125,125);
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  padding-top:2px;
+  margin: 0 0 0 0;
+}
+
 .icon {
   display: inline;
   padding: 0.25px 0.25px 0.25px 0.25px;
@@ -488,6 +497,7 @@ input {
   position: absolute;
   left: -999em;
 }
+
 
 .hide {
   width: 100%;
