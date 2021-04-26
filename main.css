@@ -420,13 +420,14 @@ h3 {
 }
 
 h4 {
-  color: rgb(125,125,125);
+  color: yellow; rgb(125,125,125)
   text-align: center;
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;
   padding-top: 1px;
   padding-bottom: 1px;
-  margin: 0 0 0 0;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 h5 {
@@ -440,7 +441,7 @@ h5 {
 
 p {
   color: rgb(200,200,200);
-  text-align: justify;
+  text-align: center;
   font-size: 14px;
   font-family: 'Montserrat', sans-serif;
   padding-top: 2px;
@@ -448,21 +449,23 @@ p {
 }
 
 .testimonials {
-  color: rgb(125,125,125);
+  color: yellow; rgb(125,125,125)
   text-align: center;
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;
   padding-top:2px;
-  margin: 0 0 0 0;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .services {
-  color: rgb(125,125,125);
+  color: yellow; rgb(125,125,125)
   text-align: center;
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;
   padding-top:2px;
-  margin: 0 0 0 0;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .icon {
@@ -963,10 +966,10 @@ input {
 /* Toogle Div for PUBLICACOES finished */
 
 .contato p {
-  text-align: justify;
+  text-align: center;
   color: gray;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -985,10 +988,10 @@ input {
 /* Secao BLOG */
 
 .blog p {
-  text-align: justify;
+  text-align: center;
   color: gray;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
   font-family: 'Montserrat', sans-serif;
 }
 
