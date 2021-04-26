@@ -16,10 +16,10 @@ header {
 
 h1 {
   text-align: left;
-  color: red;
+  color: green;
   padding-left: 72px;
   padding-top: 24px;
-  font-family: 'Italiana', serif;
+  font-family: 'Lusitana', serif;
   font-size: 36px;
   margin: 0 0 0 0;
 }
@@ -476,7 +476,7 @@ p {
 }
 
 .e-mail {
-  color: red;
+  color: yellow;
   font-size: 24px;
   font-family: 'Montserrat', sans-serif;
 }
