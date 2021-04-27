@@ -1216,6 +1216,11 @@ input {
   border: none;
 }
 
+.berimbau-dupla {
+  margin: 0 0 0 0;
+  object-fit: contain;
+}
+
 
 <<<<<<< HEAD
 
