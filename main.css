@@ -1262,9 +1262,16 @@ input {
   border: none;
 }
 
-.berimbau-dupla {
-  margin: 0 0 0 0;
-  object-fit: contain;
+#wannahand01 h4 {
+
+  color:yellow;
+
+}
+
+#wannahand01 h6 {
+
+  color:white;
+
 }
 
 
