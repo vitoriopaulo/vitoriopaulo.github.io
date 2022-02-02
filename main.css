@@ -63,7 +63,7 @@ body
 
   /* make it look decent enough */
   background: #232323;
-  color: #cdcdcd;
+  color: white; #cdcdcd
   font-family: 'Montserrat', sans-serif;
 }
 
