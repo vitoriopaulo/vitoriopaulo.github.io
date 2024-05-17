@@ -963,6 +963,11 @@ input {
   border: none;
 }
 
+col-xs-4.p {
+  color: #fff;
+}
+
+
 /* Toogle Div for PUBLICACOES finished */
 
 .contato p {
