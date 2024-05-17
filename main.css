@@ -963,7 +963,9 @@ input {
   border: none;
 }
 
-col-xs-4.p {
+
+/* Section PUBLICACOES Paragraph Color */ 
+col-xs-4 p {
   color: #fff;
 }
 
